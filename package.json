@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,7 @@
     "browserify": "^12.0.1",
     "chai": "^3.4.1",
     "del": "^2.1.0",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.1",
     "gulp-gzip": "^1.2.0",
     "gulp-jshint": "^2.0.0",
@@ -47,7 +48,7 @@
   "dependencies": {
     "es6-promise": "^3.0.2",
     "tnt.api": "^0.1.1",
-    "tnt.board": "^0.1.9",
+    "tnt.board": "git+https://github.com/horosin/tnt.board.git",
     "tnt.rest": "^0.1.1",
     "tnt.utils": "^0.1.0"
   },
